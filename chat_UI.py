@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Jan  1 22:08:00 2025
 
-@author: karida
-"""
 
 from langchain_core.messages import AIMessage, HumanMessage
 import streamlit as st
