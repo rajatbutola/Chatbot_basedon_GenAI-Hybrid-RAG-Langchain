@@ -8,7 +8,7 @@ This repository provides an advanced system for generating chatbot using **Retri
 
 - **FAISS Local Index Retrieval**: Efficiently loads and queries a FAISS-based vector store for similarity search.  
 - **BM25 and Ensemble Retrieval**: Combines vector-based and keyword-based retrieval methods (FAISS and BM25) with weighted contributions to enhance the accuracy of retrieved information.  
-- **Few-Shot Learning**: Uses example-driven prompts to improve the generation of ChimeraX commands for visualization, analysis, and data manipulation tasks.  
+- **Few-Shot Learning**: Uses example-driven prompts to improve the generation of text for visualization, analysis, and data manipulation tasks.  
 - **History-Aware Question Reformulation**: Reformulates user queries into standalone questions by leveraging chat history, ensuring contextually relevant responses.  
 - **Customizable Prompts**: Supports tailored prompt templates for specific tasks like negotiation, command generation, and question contextualization.  
 - **Conversation Memory Management**: Implements memory to maintain context across multiple interactions using `ConversationBufferMemory`.  
@@ -25,7 +25,7 @@ This repository provides an advanced system for generating chatbot using **Retri
    - GPT-4 Turbo is used as the language model for command generation and query reformulation.  
 
 3. **Prompts**:  
-   - Few-shot prompt examples for ChimeraX commands.  
+   - Few-shot prompt examples for text generation.  
    - Custom negotiation prompts to tailor responses for actionable tasks.  
    - Contextual question formulation prompts for history-aware interactions.  
 
@@ -68,6 +68,6 @@ python main.py
 ## File Structure
 - main.py: Main script for setting up retrievers, LLM, and RAG chain.
 - faiss_local_db/: Directory containing the FAISS index.
-- examples/: Few-shot learning examples for ChimeraX command generation
+- examples/: Few-shot learning examples for text generation
 
 
