@@ -66,7 +66,7 @@ contextualize_q_prompt = ChatPromptTemplate.from_messages([
 
 # Prompt template for negotiation
 negotiate_prompt = ChatPromptTemplate.from_messages([
-    ("system","You are an expert in ChimeraX, specialized in generating its commands. Analyze queries to determine if they contain actionable instructions for tasks like visualization, analysis, or data manipulation. For actionable queries, provide precise, executable ChimeraX commands with clear steps."),
+    ("system","You are an expert in ABC, specialized in generating its commands. Analyze queries to determine if they contain actionable instructions for tasks like visualization, analysis, or data manipulation. For actionable queries, provide precise, executable ABC commands with clear steps."),
      # "You are a specialized assistant for ChimeraX tool. Provide clear and precise ChimeraX commands."),
     few_shot_prompt,
     ("human", "{input}"),
